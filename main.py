@@ -6,6 +6,7 @@ import re
 
 
 root = tk.Tk()
+root.title("PDF to text")
 canvas = tk.Canvas(root, width=600, height=300)
 canvas.grid(columnspan=3, rowspan=3)
 #logo
